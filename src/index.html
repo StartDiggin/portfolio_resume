@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My portfolio</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header id="main-header">
+      <div class="row no-gutters">
+        <div class="col-lg-4 col-md-5">
+          <img src="img/person1.jpg" alt="photo">
+        </div>
+        <div class="col-lg-8 col-md-7">
+          <div class="d-flex flex-column">
+            <div class="p-5 bg-dark text-white">
+              <div class="name d-flex flex-row justify-content-between align-items-center">
+                <h1 class="display-4">John Doe</h1>
+                <div><a href="https://twitter.com"><i class="fa fa-twitter text-info"></i></a></div>
+                <div><a href="https://facebook.com"><i class="fa fa-facebook text-primary"></i></a></div>
+                <div><a href="https://instagram.com"><i class="fa fa-instagram text-danger"></i></a></div>
+                <div><a href="https://github.com"><i class="fa fa-github text-warning"></i></a></div>
+              </div>
+            </div>
+
+            <div class="p-4 bg-black">
+              Front End Web Developer
+            </div>
+
+            <div>
+              <div class="d-flex flex-row text-white align-items-stretch text-center">
+                <div class="port-item p-4 bg-dark" data-toggle="collapse" data-target="#home">
+                  <i class="fa fa-home d-block"></i> Home
+                </div>
+                <div class="port-item p-4 bg-success" data-toggle="collapse" data-target="#resume">
+                  <i class="fa fa-graduation-cap d-block"></i> Resume
+                </div>
+                <div class="port-item p-4 bg-warning" data-toggle="collapse" data-target="#work">
+                  <i class="fa fa-folder-open d-block"></i> Projects
+                </div>
+                <div class="port-item p-4 bg-danger" data-toggle="collapse" data-target="#contact">
+                  <i class="fa fa-envelope d-block"></i> Contact
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+<!-- Home -->
+    <div id="home" class="collapse show">
+      <div class="card card-body bg-dark text-white py-5">
+        <h2>Welcome to my page</h2>
+        <p class="lead"></p>
+      </div>
+
+      <div class="card card-body py-5">
+        <h3>My Skills</h3>
+        <p>Below are a few of the front end technologies that I have experience working with.</p>
+        <hr>
+        <h4>HTML</h4>
+        <div class="progress md-3">
+          <div class="progress-bar bg-success" style="width:100%"></div>
+        </div>
+        <h4>CSS</h4>
+        <div class="progress md-3">
+          <div class="progress-bar bg-success" style="width:100%"></div>
+        </div>
+        <h4>REACT</h4>
+        <div class="progress md-3">
+          <div class="progress-bar bg-success" style="width:80%"></div>
+        </div>
+        <h4>Javascript</h4>
+        <div class="progress md-3">
+          <div class="progress-bar bg-success" style="width:75%"></div>
+        </div>
+        <h4>Angular</h4>
+        <div class="progress md-3">
+          <div class="progress-bar bg-success" style="width:70%"></div>
+        </div>
+        <hr>
+        <h4>Full Stack Languages</h4>
+        <p>I have experience building applications in Python and MEAN.</p>
+        <h4>MEAN</h4>
+        <div class="progress md-3">
+          <div class="progress-bar bg-success" style="width:85%"></div>
+        </div>
+        <h4>Python</h4>
+        <div class="progress md-3">
+          <div class="progress-bar bg-success" style="width:80%"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Resume -->
+    <div id="resume" class="collapse">
+      <div class="card card-body bg-success text-white py-5">
+        <h2>My Resume</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam magnam adipisci, neque ab libero dolores. </p>
+      </div>
+      <div class="card card-body py-5">
+        <h1>Johnny Gonzales</h1>
+        <h3 class="text-muted">Front End Developer</h3>
+      </div>
+      <div class="row">
+        <!-- left Techincal skills box -->
+        <div class="col-md-3">
+          <div class="card-deck">
+            <div class="card-body">
+              <h6 class="text-muted py-2"><i class="fa fa-map-marker"></i> Wharton, NJ</h6>
+              <h6 class="text-muted py-2"><i class="fa fa-phone"></i> (971) 570-1978</h6>
+              <h6 class="text-muted py-2"><i class="fa fa-envelope"></i> j.g.dean97@gmail.com</h6>
+              <h6><i class="fa fa-linkedin text-primary py-2"></i> <a href="https://www.linkedin.com">LinkedIn</a> </h6>
+              <hr>
+              <h3 class="card-title">Technical Skills</h3>
+              <hr>
+              <h5 class="text-muted p-2 ">Front End Development</h5>
+              <ul>
+                <li>HTML5, Angular</li>
+                <li>CSS3, less.js, SASS</li>
+                <li>Bootstrap4, React</li>
+                <li>jQuery, jQueryUI</li>
+                <li>AJAX</li>
+              </ul>
+              <h5 class="text-muted p-2 ">Backend Frameworks</h5>
+              <ul>
+                <li>Python, Flask, Django</li>
+                <li>Java, Spring Boot</li>
+              </ul>
+              <h5 class="text-muted p-2 ">Servers</h5>
+              <ul>
+                <li>Apache</li>
+                <li>Node, Express</li>
+              </ul>
+              <h5 class="text-muted p-2 ">Databases</h5>
+              <ul>
+                <li>SQL(MySQL, PostgreSQL, Sqlite)</li>
+                <li>NoSQL(MongoDB)</li>
+                <li>Redis</li>
+              </ul>
+              <h5 class="text-muted p-2 ">Languages</h5>
+              <ul>
+                <li>Python</li>
+                <li>Java</li>
+                <li>MEAN</li>
+                <li>Javascript</li>
+              </ul>
+              <h5 class="text-muted p-2 ">Tools & Version Control</h5>
+              <ul>
+                <li>Git, Git Bash</li>
+                <li>Atom</li>
+                <li>Python cmd, windows cmd</li>
+                <li>MySQL Workbench, MAMP</li>
+                <li>Spring Boot</li>
+              </ul>
+              <h5 class="text-muted p-2 ">Methodology</h5>
+              <ul>
+                <li>MVC, MTV, OOP, RWD, TDD</li>
+                <li>RESTful Architecture</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Work Experience section -->
+        <div id="workExp" class="col-md-9">
+          <h4>Work Experience</h4>
+          <hr>
+          <div class="row">
+            <div class="col-md-2">
+              2008 - 2015
+            </div>
+            <div class="col-md-10">
+              <strong>Addiction Medicine Counselor</strong>
+              <p>Kaiser Permanente Hospital</p>
+              <p>Brookside Center was a start-up for Kaiser Permanente, so our job descriptions were not definitive. My job was broad and like with any start-up you learn the job and what is expected of you over time. My main responsibilities include:</p>
+              <p>Act as a support system for people with drug and alcohol problems, eating disorders and other behavioral issues. Facilitated recovery groups to teach individuals how to modify their behavior with the intention of full recovery.</p>
+              <p>Because clients are susceptible to relapses, and the recovery process can take months and sometimes years, clients are worked with on an on-going basis.
+                After treatment I also met with family members and provided guidance and support.</p>
+                <h5>Accomplishments:</h5>
+                <ul>
+                  <li>I arranged for over 1,000 clients to have a mentor, access to housing, and meeting schedule once they transitioned out of treatment.</li>
+                  <li>I was also able to get representatives from AA, NA, and Sober housing to come to our facility and speak with our clients on a weekly basis for 7 years.</li>
+                </ul>
+              </div>
+            </div>
+            <hr>
+            <!-- Education section -->
+            <h4>Education</h4>
+            <hr>
+            <div class="row">
+              <div class="col-md-2">
+                2016 - 2017
+              </div>
+              <div class="col-md-10">
+                <strong>Coding Dojo Web Development Bootcamp, <i class="fa fa-map-marker text-primary"></i> Seattle, Wa</strong>
+                <p>Earned Black Belt(2017) - The highest measure of achievement, attained by the top 5-10% of students.</p>
+                <p>Spent over 1500 hours of intensive study across three MVC frameworks and multiple web technologies.</p>
+              </div>
+              <div class="col-md-2">
+                2005 - 2007
+              </div>
+              <div class="col-md-10">
+                <strong>Bachelor of Science, Psychology, <i class="fa fa-map-marker text-primary"></i> Portland, Or</strong>
+                <p><i class="fa fa-university"></i> Portland State University</p>
+                <small class="text-muted">Attained B.S. in Psychology with a focus in child development</small>
+              </div>
+            </div>
+              <hr>
+              <!-- Projects -->
+              <h4>Projects</h4>
+              <hr>
+              <div class="row">
+                <div class="col-md-2">
+                  Blog site
+                </div>
+                <div class="col-md-10">
+                  <p>On the site you are able to add a user and post along with adding a title, category, and date to each post. You can make comments on each post and a user is able to delete his/her own post.</p>
+                  <p>Site built using:</p>
+                  <ul>
+                    <li>HMTL, CSS/SASS, Javascript, JQuery, Bootstrap 4, popper.js, tooltip.js</li>
+                    <li>Django, MySQL</li>
+                  </ul>
+                  <hr>
+                </div>
+                <div class="col-md-2">
+                  Recruiter site
+                </div>
+                <div class="col-md-10">
+                  <p>I built this site for a client starting her own recruiting company. Potential clients can see what services the company offers, read profiles on every recruiter that is currently working for the company. The site is connected to the company blog and social sites.  </p>
+                  <p>Site built using:</p>
+                  <ul>
+                    <li>HMTL, CSS/SASS, Javascript, JQuery, Bootstrap 4, popper.js, tooltip.js</li>
+                    <li>MEAN, noSQL</li>
+                  </ul>
+                  <hr>
+                </div>
+              </div>
+                <hr>
+              <!-- Volunteer Experience -->
+            <h4>Volunteer Experience</h4>
+            <hr>
+            <div class="row">
+              <div class="col-md-2">
+                2005 - 2008
+              </div>
+              <div class="col-md-10">
+                <p>Volunteered at CWS, women's domestic violence shelter, working with the children of the residents. After 1 year I  was hired on and worked there for an additional 2 years</p>
+              </div>
+            </div>
+              <hr>
+          </div>
+        </div>
+      </div>
+
+    <!-- Work / Projects -->
+    <div id="work" class="collapse">
+      <div class="card card-body bg-warning py-5">
+        <h3>My Portfolio</h3>
+        <p>Welcome to my project page, the images below are clickable to see more detail in the project.</p>
+      </div>
+      <div class="card card-body py-5">
+        <h3>What have I built?</h3>
+        <p>Below are a few screen shots of some of the projects that I have built. They are fully functional and responsive.</p>
+        <div class="row no-gutters">
+          <div class="col-md-3">
+            <a href="img/blog.png" data-toggle="lightbox">
+              <img src="img/blog.png" alt="" class="img-fluid">
+            <a/>
+          </div>
+          <div class="col-md-3">
+            <a href="img/addpost.png" data-toggle="lightbox">
+              <img src="img/addpost.png" alt="" class="img-fluid">
+            <a/>
+          </div>
+          <div class="col-md-3">
+            <a href="img/glow.png" data-toggle="lightbox">
+              <img src="img/glow.png" alt="" class="img-fluid">
+            <a/>
+          </div>
+          <div class="col-md-3">
+            <a href="img/glow2.png" data-toggle="lightbox">
+              <img src="img/glow2.png" alt="" class="img-fluid">
+            <a/>
+          </div>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-md-3">
+            <a href="img/mix.png" data-toggle="lightbox">
+              <img src="img/mix.png" alt="" class="img-fluid">
+            <a/>
+          </div>
+          <div class="col-md-3">
+            <a href="img/mix2.png" data-toggle="lightbox">
+              <img src="img/mix2.png" alt="" class="img-fluid">
+            <a/>
+          </div>
+          <div class="col-md-3">
+            <a href="img/loop.png" data-toggle="lightbox">
+              <img src="img/loop.png" alt="" class="img-fluid">
+            <a/>
+          </div>
+          <div class="col-md-3">
+            <a href="img/loop2.png" data-toggle="lightbox">
+              <img src="img/loop2.png" alt="" class="img-fluid">
+            <a/>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- Contact -->
+  <div id="contact" class="collapse">
+    <div class="card card-body bg-danger text-white py-5">
+      <h2>Contact</h2>
+      <div id="slider1" class="carousel slide mb-5" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                “You only live once, but if you do it right, once is enough.” <cite>-- Mae West</cite>
+              </div>
+              <div class="carousel-item">
+                “I may not have gone where I intended to go, but I think I have ended up where I needed to be.” <cite>-- Douglas Adams</cite>
+              </div>
+              <div class="carousel-item">
+                “Pleasure in the job puts perfection in the work.” <cite>-- Aristotle</cite>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <div class="card card-body py-5">
+      <h3>Get in touch</h3>
+      <p>Please use the form below to contact me with any questions. Thank you!</p>
+      <form method="POST" action="http://formspree.io/dimension_122@yahoo.com">
+        <div class="form-group">
+          <div class="input-group input-group-lg">
+            <span class="input-group-addon bg-danger text-white">
+              <i class="fa fa-user"></i>
+            </span>
+            <input type="text" class="form-control bg-dark text-white" placeholder="Name">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="input-group input-group-lg">
+            <span class="input-group-addon bg-danger text-white">
+              <i class="fa fa-envelope"></i>
+            </span>
+            <input type="email" class="form-control bg-dark text-white" placeholder="Email">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="input-group input-group-lg">
+            <span class="input-group-addon bg-danger text-white">
+              <i class="fa fa-pencil"></i>
+            </span>
+            <textarea  name="message" rows="5" class="form-control bg-dark text-white" placeholder="Message"></textarea>
+          </div>
+        </div>
+        <input type="submit" value="submit" class="btn btn-danger btn-block btn-lg">
+      </form>
+    </div>
+  </div>
+
+    <!-- Footer -->
+    <footer id="main-footer" class="p-2 bg-dark text-white">
+      <div class="row">
+        <div class="col-md-6">
+          <a href="#" class="btn btn-outline-light"<i class="fa fa-cloud"></i> Download Resume</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+  <script>
+    $('.port-item').click(function(){
+      $('.collapse').collapse('hide');
+    });
+
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
+    });
+
+    $('.carousel').carousel({
+      interval:4000,
+      keyboard: true,
+      pause: 'hover',
+      wrap: true
+    });
+  </script>
+</body>
+</html>
