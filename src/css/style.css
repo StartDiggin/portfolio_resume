@@ -30,3 +30,22 @@
   margin-top: 25px; }
   #workExp h5 {
     border-bottom: 0 !important; }
+
+#frontend {
+  background: url("../img/frontend.jpeg");
+  background-size: cover; }
+
+#backend {
+  background: url("../img/python.jpeg");
+  background-size: cover; }
+
+#databases {
+  background: url("../img/backend.jpeg"); }
+
+.dark-overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  top: -1px;
+  left: -1px;
+  width: 101%;
+  height: 101%; }
